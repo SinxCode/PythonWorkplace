@@ -5,6 +5,7 @@ from emoji import emojize
 #:smiling_face_with_horns:
 #:smiling_face_with_sunglasses:
 #:chicken:
+#Joguinho
 import pygame
 
 pygame.init()
