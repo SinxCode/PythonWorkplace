@@ -35,6 +35,8 @@ while True:
         break
 print('Infelizmente você foi DERROTADO pela Machine')
 print(f'Total de vitórias em sequência: {vitorias}')
+str(input('Aperte algo pra sair: '))
+
         
     
 
