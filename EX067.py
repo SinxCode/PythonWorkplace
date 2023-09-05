@@ -9,8 +9,10 @@ while True:
     n = int(input('Informe um número inteiro: '))
     if n < 0:
         break
+    print('=-'*20)
     while c < 10:
         c = c + 1
         total = n * c
-        print(f'{n} x {c} = {total} ')    
+        print(f'{n} x {c} = {total} ')
+    print('=-'*20)        
 print('Fim')        
