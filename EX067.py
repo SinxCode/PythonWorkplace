@@ -1,6 +1,4 @@
 total = 0
-c = 0
-n = 0
 print('=-' * 20)
 print('Tabuada')
 print('=-' * 20)
