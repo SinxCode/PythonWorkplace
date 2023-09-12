@@ -3,7 +3,7 @@ c = 0
 c5 = 0
 while True:
     v = int(input('Digite um valor:'))
-    lista.append(v)
+    lista.append(v)  
     resposta = input('Deseja digitar outro número? [S/N]').strip().upper()
     if resposta == 'N':
         break
