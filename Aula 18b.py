@@ -16,4 +16,4 @@ for p in galera:
     else:
         print(f'{p[0]} é menor de idade.')
         menor = menor + 1
-print(f'Temos {maior} maiores de idade e {menor} menores de idade.')
+print(f'Temos {maior} maiores de idade e {menor} menores de idade')
