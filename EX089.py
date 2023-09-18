@@ -12,3 +12,13 @@ while True:
 print(f'{"Nº":<4}{"NOME":<10}{"MÉDIA":>8}')  
 for i, a in enumerate(boletim):
     print(f'{i:<4}{a[0]:<10}{a[2]:>8.2f}')
+
+while True:
+    opc = int(input('Mostrar notas de qual aluno? (999 interrompe)'))
+    if opc == 999:
+        print('Finalizado')
+        break
+    if opc <=len(boletim) -1:
+        print(F'Notas de {boletim[opc][0]} são {boletim[opc][1]} ')
+print('Fim')
+
