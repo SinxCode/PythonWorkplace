@@ -17,7 +17,7 @@ if cadastro['CTPS'] ==0:
 else:
     contratacao = int(input('Digite o ano de sua contratação: '))
     cadastro['Contratação'] = contratacao
-    aposentadoria = (ano + 35) - contratacao
+    aposentadoria = ((ano + 35) - contratacao) + idade
     cadastro['Salário'] = float(input('Informe seu salário: '))
     cadastro['Aposentadoria'] = aposentadoria
     print('=-' * 30)
