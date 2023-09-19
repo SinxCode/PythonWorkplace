@@ -11,7 +11,7 @@ for c in range (1, n + 1):
 dicionario['Gols'] = gols
 dicionario['Total'] = sum(gols)
 print('=-' * 30)
-print(f'O jogador: {dicionario["Nome"]} jogou {len(dicionario["Gols"])}º partidas')
+print(f'O jogador: {dicionario["Nome"]} jogou {len(dicionario["Gols"])} partidas')
 for i, v in enumerate(dicionario['Gols']):
   print(f'   -> Na {i+1}ª fez {v} gols')
 print('=-'*30)
