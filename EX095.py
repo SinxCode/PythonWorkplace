@@ -50,14 +50,3 @@ while True:
     if p == 999:
         break
 print('<< VOLTE SEMPRE >>')
-
-    
-
-    
-        
-            
-
-
-
-
-
