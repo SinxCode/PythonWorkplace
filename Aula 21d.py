@@ -21,7 +21,7 @@ def par(n = 0):
         return True
     else:
         return False
-    
+
 
 num = int(input('Número: '))
 if par(num):
