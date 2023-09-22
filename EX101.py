@@ -1,5 +1,5 @@
-from datetime import datetime
 def voto(nasc = 0):
+    from datetime import datetime
     ano = datetime.now().year
     idade = ano - nasc
     if  18 <= idade < 65:
