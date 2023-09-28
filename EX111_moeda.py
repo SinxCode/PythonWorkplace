@@ -29,7 +29,16 @@ def resumo(n = 0, aumento =10, redução = 5):
     print(f'Dobro do preço: \t{dobro(n, True)}')
     print(f'Metade do preço: \t{metade(n, True)}')
     print(f'{aumento}% de aumento: \t{aumentar(n, aumento, True)}')
-    print(f'{redução}% de redução: \t\t{aumentar(n, redução, True)}')
+    print(f'{redução}% de redução: \t{aumentar(n, redução, True)}')
     print('-' * 30)
 
 
+def leiadinheiro(msg):
+    valido = False
+    while not valido:
+        entrada = input(msg).replace(',','.').strip()
+        if entrada.isalpha() or entrada =='':
+            print(f'\033[0;31mERRO: {entrada} é um preço inválido!\033[m')
+        else:
+            valido = True
+            return float(entrada)
