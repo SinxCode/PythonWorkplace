@@ -22,7 +22,12 @@ def moeda(preço = 0, moeda = 'R$'):
 
 
 def resumo(n = 0, aumento =10, redução = 5):
-    print('=-' * 30)
+    print('-' * 30)
     print(f'{"RESUMO DO VALOR".center(30)}')
-    print('=-' * 30)
-    print(f'Preço analisado: {moeda(n)}')
+    print('-' * 30)
+    print(f'Preço analisado: \t{moeda(n)}') #\t faz uma tabulação
+    print(f'Dobro do preço: \t{dobro(n, True)}')
+    print(f'Metade do preço: \t{metade(n, True)}')
+    print(f'{aumento}% de aumento: \t{aumentar(n, aumento, True)}')
+    print(f'{redução}% de redução: \t\t{aumentar(n, redução, True)}')
+    print('-' * 30)
