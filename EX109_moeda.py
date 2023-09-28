@@ -13,7 +13,7 @@ def aumentar(n = 0, x = 0, formato=False):
 
 
 def diminuir(n = 0, x = 0, formato = False):
-    r = n - (n * (x/100))
+    r = n - (n * (x/100)) 
     return  r if formato is False else moeda(r)
 
 
