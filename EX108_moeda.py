@@ -1,13 +1,17 @@
-def metade(n):
+def metade(n = 0):
     return n / 2
 
 
-def dobro(n):
+def dobro(n = 0):
     return n * 2
 
-def aumentar(n, x):
+def aumentar(n = 0, x = 0):
     return n + (n * (x/100))
 
 
-def diminuir(n, x):
+def diminuir(n = 0, x = 0):
     return n - (n * (x/100)) 
+
+
+def moeda(preço = 0, moeda = 'R$'):
+    return f'{moeda}{preço:.2f}'.replace('.',',')
